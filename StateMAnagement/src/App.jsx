@@ -2,6 +2,7 @@
 import './App.css'
 import CounterAppl from './components/CounterAppl'
 import FetchData from './components/FetchData'
+import FormReducer from './components/FormReducer'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
       <CounterAppl/>
       <FetchData/>
+      <FormReducer/>
     </>
   )
 }
